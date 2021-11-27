@@ -1,0 +1,319 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v4.0 | 20180602
+   License: none (public domain)
+*/
+#particles-js{
+  background:url(imagenes/6.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  width: 100%;
+  height:820px;
+  top: 200px;
+  }
+html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+.diapositiva1{
+  width: 100%;
+  /*background-color: blueviolet;*/
+  
+}
+h4{
+  width: 100%;
+  background: burlywood;
+}
+.diapositiva1 p{
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 70px;
+  color: white;
+}
+.link{
+  text-align: center;
+  width:50%;
+  padding: 60px 0; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.diapositiva1 img{
+  float:left;
+  width: 40%;
+  margin-right: 30px;
+  animation: cambio 20s infinite alternate;
+	animation-direction: alternate;
+  animation-duration: inherit;
+}
+p#copyright{
+  padding: 110px 0;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+
+}
+.diapositiva1 p a{
+  color: white;
+  font-size: 40px;
+  padding: 80px 0;
+}
+/*Diapositiva 2*/
+.diapositiva2{
+  width: 100%;
+}
+h2{
+  color: coral;
+  animation-duration: initial;
+  animation: cambio 20s infinite alternate;
+	animation-timing-function: ease-in;
+}
+h3{
+  color: coral;
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 80px;
+  padding-top: 10px;
+  font-size: 40px;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+  
+}
+.diapositiva2 img{
+  float:right;
+  width: 40%;
+  margin-right: 30px;
+  animation: cambio 20s infinite;
+	animation-direction: alternate;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+}
+.diapositiva2 p{
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 40px;
+  padding-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.diapositiva2 ul{
+  color: white;
+  font-size: 30px;
+}
+
+/*diapositiva 3*/
+.diapositiva3{
+  width: 100%;
+}
+h2{
+  color: coral;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in;
+}
+h3{
+  color: coral;
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 80px;
+  padding-top: 30px;
+  font-size: 40px;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+  
+}
+.diapositiva3 img{
+  float:left;
+  width: 40%;
+  margin-right: 30px;
+  animation: cambio 20s infinite;
+	animation-direction: alternate;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+}
+.diapositiva3 p{
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 40px;
+  padding-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.diapositiva3 ul{
+  color: white;
+  font-size: 30px;
+}
+
+/*diapositiva 4*/
+.diapositiva4{
+  width: 100%;
+}
+h2{
+  color: coral;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in;
+}
+h3{
+  color: coral;
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 80px;
+  padding-top: 30px;
+  font-size: 40px;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+  
+}
+.diapositiva4 img{
+  float:right;
+  width: 40%;
+  margin-right: 30px;
+  animation: cambio 20s infinite;
+	animation-direction: alternate;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+}
+.diapositiva4 p{
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 40px;
+  padding-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.diapositiva4 ul{
+  color: white;
+  font-size: 30px;
+}
+
+/*diapositiva 5*/
+.diapositiva5{
+  width: 100%;
+}
+h2{
+  color: coral;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in;
+}
+h3{
+  color: coral;
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 80px;
+  padding-top: 30px;
+  font-size: 40px;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+  
+}
+.diapositiva5 img{
+  float:left;
+  width: 40%;
+  margin-right: 30px;
+  animation: cambio 20s infinite;
+	animation-direction: alternate;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+}
+.diapositiva5 p{
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 40px;
+  padding-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.diapositiva5 ul{
+  color: white;
+  font-size: 30px;
+}
+
+/*diapositiva 6*/
+.diapositiva6{
+  width: 100%;
+}
+h2{
+  color: coral;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in;
+}
+h3{
+  color: coral;
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 80px;
+  padding-top: 30px;
+  font-size: 40px;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+  
+}
+.diapositiva6 img{
+  float:right;
+  width: 40%;
+  margin-right: 30px;
+  animation: cambio 20s infinite;
+	animation-direction: alternate;
+  animation: cambio 20s alternate;
+	animation-timing-function: ease-in-out;
+}
+.diapositiva6 p{
+  text-align: center;
+  float: right;
+  width:50%;
+  padding-right: 40px;
+  padding-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.diapositiva6 ul{
+  color: white;
+  font-size: 30px;
+}
+
+/*diapositiva 7*/
+.diapositiva7{
+  width: 100%;
+}
+.diapositiva7 h3{
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  margin-left: 40px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
